@@ -1,6 +1,6 @@
 # An unsupervised map of excitatory neurons’ dendritic morphology in the mouse visual cortex
 
-This repository contains code to the paper [An unsupervised map of excitatory neurons’ dendritic morphology in the mouse visual cortex](https://www.biorxiv.org/content/10.1101/2022.12.22.521541v3).
+This repository contains code for the paper [An unsupervised map of excitatory neurons’ dendritic morphology in the mouse visual cortex](https://www.biorxiv.org/content/10.1101/2022.12.22.521541v3).
 
 ![Figure 2](Fig2.png?raw=true "Figure 2")
 
