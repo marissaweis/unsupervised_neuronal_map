@@ -1,0 +1,34 @@
+{
+    "model": {
+        "name": "microns",
+        "num_classes": 5000,
+        "dim": 32,
+        "depth": 7,
+        "n_head": 4,
+        "pos_dim": 32,
+        "move_avg": 0.999,
+        "center_avg": 0.9,
+        "teacher_temp": 0.06,
+        "use_exp": true
+    },
+    "data": {
+        "class": "microns_v7",
+        "path": "data/",
+        "batch_size": 128,
+        "num_workers": 8,
+        "n_nodes": 200,
+        "feat_dim": 3,
+        "jitter_var": 1.0,
+        "translate_var": 1.0,
+        "rotation_axis": "y",
+        "n_drop_branch": 5
+    },
+    "optimizer": {
+        "lr": 0.001,
+        "max_iter": 50000,
+        "exp_decay": 0.5
+    },
+    "trainer": {
+        "ckpt_dir": "ckpts/"
+    }
+}
