@@ -6,7 +6,7 @@ The training configuration as used in the paper is given in the [config file](ht
 
 ## Inference using pre-trained GraphDINO
 
-The weights of the GraphDINO trained on MICrons are given in the [checkpoint file](https://github.com/marissaweis/unsupervised_neuronal_map/blob/main/data/graphdino/ckpts/ckpt_microns.pt). See the notebook []() for an example, how to perform infernence using the pre-trained model.
+The weights of the GraphDINO trained on MICrons are given in the [checkpoint file](https://github.com/marissaweis/unsupervised_neuronal_map/blob/main/data/graphdino/ckpts/ckpt_microns.pt). See the notebook []() for an example, how to perform inference using the pre-trained model.
 
 
 ## Embeddings
