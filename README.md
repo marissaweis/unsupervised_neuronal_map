@@ -1,17 +1,15 @@
 # An unsupervised map of excitatory neurons’ dendritic morphology in the mouse visual cortex
 
-This repository contains code for the paper [An unsupervised map of excitatory neurons’ dendritic morphology in the mouse visual cortex](https://www.biorxiv.org/content/10.1101/2022.12.22.521541v3).
+This repository contains code for the paper [An unsupervised map of excitatory neuron dendritic morphology in the mouse visual cortex](https://www.nature.com/articles/s41467-025-58763-w).
 
 ![Figure 2](Fig2.png?raw=true "Figure 2")
 
 ## Preprocessed data and meta data
-All meta data and preprocessed data are located in the [data](https://github.com/marissaweis/unsupervised_neuronal_map/blob/main/data/) folder. This includes the learned morphological embeddings of the MICrONS neurons as well as morphometrics computed on them.
-
-*Coming soon*
+Data is published under "Source data" with the [paper](https://www.nature.com/articles/s41467-025-58763-w#Sec40). This includes the learned morphological embeddings of the MICrONS neurons as well as morphometrics computed on them.
 
 
 ## Downloading the raw data
-The raw data can be found [here](https://www.microns-explorer.org/cortical-mm3).
+The raw data can be found in the [MICrONS Explorer](https://www.microns-explorer.org/cortical-mm3).
 
 Graphs of the neurons were extracted using [NEURD](https://github.com/reimerlab/NEURD).
 
@@ -23,8 +21,7 @@ The checkpoint for the pre-trained GraphDINO on the [MICrONS data](https://www.m
 - [ckpt_microns.pt](https://github.com/marissaweis/unsupervised_neuronal_map/blob/main/data/graphdino/ckpts/ckpt_microns.pt)
 - [config.json](https://github.com/marissaweis/unsupervised_neuronal_map/blob/main/data/graphdino/ckpts/config.json)
 
-The learned morphological embeddings of the MICrONS data can be found here:
-- [graphdino_morphological_embeddings.pkl](https://github.com/marissaweis/unsupervised_neuronal_map/blob/main/data/graphdino/embeddings/) - *Coming soon*
+The learned morphological embeddings of the MICrONS data can be found under "Source data" with the [paper](https://www.nature.com/articles/s41467-025-58763-w#Sec40).
 
 
 ## Analyses
@@ -47,11 +44,13 @@ We have simplified the computation of the layer boundaries which leads to slight
 
 ## Citation
 ```
-@article{Weis2024,
-      title={An unsupervised map of excitatory neurons' dendritic morphology in the mouse visual cortex},
-      author = {Weis, Marissa A. and Papadopoulos, Stelios and Hansel, Laura and Lüddecke, Timo and Celii, Brendan and Fahey, Paul G. and Wang, Eric Y. and MICrONS Consortium and Reimer, Jacob and Berens, Philipp and Tolias, Andreas S. and Ecker, Alexander S.}
-      journal={bioRxiv},
-      doi = {10.1101/2022.12.22.521541},
-      year={2024}
+@article{Weis2025,
+	author = {Weis, Marissa A. and Papadopoulos, Stelios and Hansel, Laura and L{\"u}ddecke, Timo and Celii, Brendan and Fahey, Paul G. and Wang, Eric Y. and Bae, J. Alexander and Bodor, Agnes L. and Brittain, Derrick and Buchanan, JoAnn and Bumbarger, Daniel J. and Castro, Manuel A. and Collman, Forrest and da Costa, Nuno Ma{\c c}arico and Dorkenwald, Sven and Elabbady, Leila and Halageri, Akhilesh and Jia, Zhen and Jordan, Chris and Kapner, Dan and Kemnitz, Nico and Kinn, Sam and Lee, Kisuk and Li, Kai and Lu, Ran and Macrina, Thomas and Mahalingam, Gayathri and Mitchell, Eric and Mondal, Shanka Subhra and Mu, Shang and Nehoran, Barak and Popovych, Sergiy and Reid, R. Clay and Schneider-Mizell, Casey M. and Seung, H. Sebastian and Silversmith, William and Takeno, Marc and Torres, Russel and Turner, Nicholas L. and Wong, William and Wu, Jingpeng and Yin, Wenjing and Yu, Szi-chieh and Reimer, Jacob and Berens, Philipp and Tolias, Andreas S. and Ecker, Alexander S.},
+	journal = {Nature Communications},
+	number = {1},
+	pages = {3361},
+	title = {An unsupervised map of excitatory neuron dendritic morphology in the mouse visual cortex},
+	volume = {16},
+	year = {2025}
 }
 ```
